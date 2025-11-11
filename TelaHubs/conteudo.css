@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&family=Montserrat:wght@400;500;600;700;800&family=Sarala:wght@700&display=swap');
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(rgba(15,15,15,0.5), rgba(15,15,15,1)),
+              url("./img/a-v-jMvjZegtsl8-unsplash.jpg") no-repeat center top;
+  background-size: cover;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+/* ===== CABEÇALHO ===== */
+.main-header {
+  background-color:#110703;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo-link img {
+  height: 70px;
+}
+
+.main-nav ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.main-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.utility-bar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 13px;
+}
+
+.utility-bar .nav-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 20%;
+}
+
+.btn-entrar {
+  background: rgba(140, 80, 34, 0.5);
+  border-radius: 5px;
+  outline: 1px solid white;
+  padding: 7px 21px;
+  font-size: 13px;
+  color: white;
+  text-decoration: none;
+}
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+.conteudo {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-container {
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+  max-width: 1100px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  padding: 3rem;
+  box-shadow: 0 0 15px rgba(255,255,255,0.1);
+}
+
+.conteudo-imagem img {
+  width: 400px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.conteudo-texto h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.conteudo-texto p {
+  font-size: 1rem;
+  line-height: 1.8;
+  color: #ccc;
+  margin-bottom: 1rem;
+}
+
+.btn-voltar {
+  display: inline-block;
+  background: rgba(115, 44, 2, 0.5);
+  color: white;
+  text-decoration: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn-voltar:hover {
+  background: #46c97f;
+}
+
+/* ===== BENEFÍCIOS E MALEFÍCIOS ===== */
+.beneficios {
+  margin-top: 4rem;
+  max-width: 1100px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.beneficios h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  border-bottom: 2px solid #444;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+}
+
+.beneficios-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.beneficio-box, .maleficio-box {
+  flex: 1 1 45%;
+  background: rgba(255,255,255,0.05);
+  border-radius: 10px;
+  padding: 1.5rem;
+  backdrop-filter: blur(4px);
+}
+
+.beneficio-box h3, .maleficio-box h3 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: #46c97f;
+}
+
+.maleficio-box h3 {
+  color: #ff7070;
+}
+
+.beneficio-box ul, .maleficio-box ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  color: #ccc;
+  line-height: 1.8;
+}
+
+/* ===== RODAPÉ ===== */
+footer {
+  background: hsl(30, 100%, 4%);
+  text-align: center;
+  padding: 2rem 1rem;
+  border-top: 1px solid #333;
+}
+
+.footer-logo {
+  height: 150px;
+  width: 200px;
+}
+
+footer p {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+/* ===== RESPONSIVO ===== */
+@media (max-width: 900px) {
+  .conteudo-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .conteudo-imagem img {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .beneficios-container {
+    flex-direction: column;
+  }
+
+  .beneficio-box, .maleficio-box {
+    width: 100%;
+  }
+}
