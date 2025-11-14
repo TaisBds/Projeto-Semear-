@@ -10,7 +10,6 @@
 
   <!-- ===== CABEÇALHO ===== -->
   <header class="main-header">
-    
     <a href="index.html" class="logo-link">
       <img src="img/logo.png" alt="Logo Semear">
     </a>
@@ -30,9 +29,9 @@
       </a>
       <a href="#" class="icon-link" title="Acessibilidade">
         <img src="img/carbon-accessibility-alt.svg" alt="Acessibilidade" class="nav-icon">
-        <span >ACESSIBILIDADE</span>
-      </a>     
-      <a href="#" class="nav-item-destaque" >FAQ</a>
+        <span>ACESSIBILIDADE</span>
+      </a>
+      <a href="#" class="nav-item-destaque">FAQ</a>
       <div class="lang-selector icon-link">
         <img src="img/emojione-v-1-flag-for-brazil.svg" alt="Bandeira do Brasil" class="flag-icon">
         <span>PT-BR</span>
@@ -42,128 +41,249 @@
     </div>
   </header>
 
-  <!-- ===== SEÇÃO INTRO ===== -->
-  <section class="intro">
-    <h2>HUBS</h2>
-    <p class="descricao">
-      Explore e descubra tudo o que o nosso hub tem a oferecer!<br>
-      Aqui você encontrará tudo o que precisa saber sobre diferentes variedades,
-      técnicas de plantio e cuidados, além de dicas úteis para otimizar o seu cultivo.
-    </p>
-  </section>
-
   <!-- ===== MAIS ACESSADOS ===== -->
   <section class="sessao">
-    <br>
     <h2>Mais Acessados</h2>
     <br><br>
     <div class="cards-container">
       <div class="card">
         <img src="img/download.png" alt="">
         <h4>Semente de Melancia</h4>
-        <p>Aqui, agricultores e interessados no cultivo de melancia encontram orientações sobre o plantio, manejo e comercialização.</p>
-        <a href="conteudo-melancia.html" class="btn">Acesse</a>
+        <p>Aqui, agricultores e interessados no cultivo de melancia encontram orientações sobre o plantio, manejo e comercialização.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-melancia.html" class="btn">Acesse</a>
       </div>
 
       <div class="card">
         <img src="img/tama2.png" alt="">
         <h4>Semente de Tamarindo</h4>
-        <p>Nutritiva, rica em proteínas, gorduras saudáveis e minerais como magnésio e ferro.</p>
-        <a href="conteudo-tamarindo.html" class="btn">Acesse</a>
+        <p>Nutritiva, rica em proteínas, gorduras saudáveis e minerais como magnésio e ferro.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-tamarindo.html" class="btn">Acesse</a>
       </div>
 
       <div class="card">
         <img src="img/cacao.png" alt="">
         <h4>Semente de Cacau</h4>
-        <p>Rica em nutrientes e ideal para cultivo tropical.</p>
-        <a href="conteudo-cacau.html" class="btn">Acesse</a>
+        <p>Rica em nutrientes e ideal para cultivo tropical.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-cacau.html" class="btn">Acesse</a>
       </div>
 
       <div class="card">
         <img src="img/maracuja.png" alt="">
         <h4>Semente de Maracujá</h4>
-        <p>Excelente para sucos e doces, com sabor marcante e aroma tropical.</p>
-        <a href="conteudo-maracuja.html" class="btn">Acesse</a>
+        <p>Excelente para sucos e doces, com sabor marcante e aroma tropical.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-maracuja.html" class="btn">Acesse</a>
       </div>
     </div>
   </section>
 
-  <!-- ===== SEMENTES ===== -->
-  <section class="sessao">
-    <br>
-    <h2>Sementes</h2>
-    <br>
+  <!-- ===== SELETOR DE CATEGORIAS ===== -->
+  <section class="sessao filtro-sessao">
+    <h2>Escolha a Categoria</h2>
     <div class="filtro">
-      <select>
-        <option>Flores</option>
-        <option>Frutas</option>
+      <select id="categoriaSelect">
+        <option value="flores">Flores</option>
+        <option value="frutas">Frutas</option>
       </select>
     </div>
+  </section>
 
-    <div class="cards-container">
+
+  <!-- ===== SEMENTES ===== -->
+  <section class="sessao">
+    <h2>Sementes</h2>
+    <br><br>
+
+    <!-- FLORES -->
+    <div class="cards-container flores">
       <div class="card">
         <img src="img/girassol.png" alt="">
         <h4>Semente de Girassol</h4>
-        <p>Produtores encontram informações sobre plantio, manejo, colheita e comercialização.</p>
-        <a href="conteudo-girassol.html" class="btn">Acesse</a>
+        <p>Informações sobre plantio, manejo, colheita e comercialização.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-girassol.html" class="btn">Acesse</a>
       </div>
 
       <div class="card">
         <img src="img/margarida.png" alt="">
         <h4>Semente de Margarida</h4>
-        <p>Essencial para a propagação da planta, garantindo a continuidade das margaridas.</p>
-        <a href="conteudo-margarida.html" class="btn">Acesse</a>
+        <p>Essencial para propagação e continuidade das margaridas.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-margarida.html" class="btn">Acesse</a>
       </div>
 
       <div class="card">
-        <img src="img/a-v-jMvjZegtsl8-unsplash.jpg" alt="">
+        <img src="img/DALL·E 2024-10-25 19.03.47 - A close-up of a cluster of pink ipê flowers (Tabebuia rosea) with delicate petals and intricate details, showcasing the vibrant color and texture of e 1.png" alt="">
         <h4>Semente de Ipê</h4>
-        <p>Flor ornamental de formato elegante e de grande beleza natural.</p>
-        <a href="conteudo-ipe.html" class="btn">Acesse</a>
+        <p>Flor ornamental de grande beleza e formato elegante.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-ipe.html" class="btn">Acesse</a>
       </div>
 
       <div class="card">
         <img src="img/08 DE MAIO - LINHAÇA - SEMENTE - FLOR (1).png" alt="">
         <h4>Semente de Linhaça</h4>
-        <p>Rica em ômega-3, essencial para cultivo e alimentação saudável.</p>
-        <a href="conteudo-linhaca.html" class="btn">Acesse</a>
+        <p>Rica em ômega-3, essencial para cultivo e alimentação saudável.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-linhaca.html" class="btn">Acesse</a>
+      </div>
+
+      <!-- Novas flores -->
+      <div class="card">
+        <img src="img/pexels-irene-asthetik-2147866784-34701049.jpg" alt="">
+        <h4>Semente de Rosa</h4>
+        <p>Uma das flores mais admiradas, símbolo de amor e beleza, cultivada em todo o mundo.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-rosa.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/pexels-kelly-rabie-787427-1878095 (1).jpg" alt="">
+        <h4>Semente de Lavanda</h4>
+        <p>Conhecida por seu aroma relaxante e beleza singular, perfeita para jardins e perfumes.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-lavanda.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/cravo.jpg" alt="">
+        <h4>Semente de Cravo</h4>
+        <p>Flor delicada e aromática, amplamente usada na ornamentação e medicina natural.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-cravo.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/hort.jpg" alt="">
+        <h4>Semente de Hortênsia</h4>
+        <p>Conhecida por suas flores grandes e coloridas, ideal para decoração de jardins.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Flores/conteudo-hortensia.html" class="btn">Acesse</a>
+      </div>
+    </div>
+
+    <!-- FRUTAS -->
+    <div class="cards-container frutas" style="display:none;">
+      <div class="card">
+        <img src="img/download.png" alt="">
+        <h4>Semente de Melancia</h4>
+        <p>Orientações sobre plantio, manejo e comercialização.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-melancia.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/tama2.png" alt="">
+        <h4>Semente de Tamarindo</h4>
+        <p>Rica em proteínas e minerais como magnésio e ferro.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-tamarindo.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/cacao.png" alt="">
+        <h4>Semente de Cacau</h4>
+        <p>Ideal para cultivo tropical e rica em nutrientes.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-cacau.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/maracuja.png" alt="">
+        <h4>Semente de Maracujá</h4>
+        <p>Perfeita para sucos e doces tropicais.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-maracuja.html" class="btn">Acesse</a>
+      </div>
+
+      <!-- Novas frutas -->
+      <div class="card">
+        <img src="img/mamao.jpg" alt="">
+        <h4>Semente de Mamão</h4>
+        <p>Rica em enzimas digestivas e cultivada em climas tropicais.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-mamao.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/goiaba.jpg" alt="">
+        <h4>Semente de Goiaba</h4>
+        <p>Fruta doce e aromática, muito usada em sucos e doces caseiros.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-goiaba.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/acerola.jpg" alt="">
+        <h4>Semente de Acerola</h4>
+        <p>Riquíssima em vitamina C, ideal para fortalecer o sistema imunológico.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-acerola.html" class="btn">Acesse</a>
+      </div>
+
+      <div class="card">
+        <img src="img/a-v-jMvjZegtsl8-unsplash.jpg" alt="">
+        <h4>Semente de Uva</h4>
+        <p>Utilizada na produção de vinhos, sucos e cosméticos naturais.<br><br>
+        Acessando o botão abaixo você terá mais informações como benefícios e malefícios.</p>
+        <a href="../Conteudos/Frutas/conteudo-uva.html" class="btn">Acesse</a>
       </div>
     </div>
   </section>
 
   <!-- ===== RODAPÉ ===== -->
- <footer class="main-footer">
+  <footer class="main-footer">
     <div class="container">
       <img src="img/logo.png" alt="Logo Semear" class="footer-logo"/>
-      
       <div class="footer-contact-info">
-        Conecte-se Conosco<br/><br/>
-        Email: contato@semearhub.com | Telefone: +55 (61) 1234-5678<br/>
+        Conecte-se Conosco<br><br>
+        Email: contato@semearhub.com | Telefone: +55 (61) 1234-5678<br>
         Endereço: Rua das Sementes, 123 - Brasília - DF
       </div>
-
       <div class="social-icons">
-        <a href="#"><img src="img/ic-baseline-facebook.svg" alt="Facebook"/></a>
-        <a href="#"><img src="img/ri-instagram-fill.svg" alt="Instagram"/></a>
-        <a href="#"><img src="img/mage-linkedin.svg" alt="Linkedin"/></a>
-        <a href="#"><img src="img/mingcute-youtube-fill.svg" alt="YouTube"/></a>
+        <a href="#"><img src="img/ic-baseline-facebook.svg" alt="Facebook"></a>
+        <a href="#"><img src="img/ri-instagram-fill.svg" alt="Instagram"></a>
+        <a href="#"><img src="img/mage-linkedin.svg" alt="Linkedin"></a>
+        <a href="#"><img src="img/mingcute-youtube-fill.svg" alt="YouTube"></a>
       </div>
-      <br>
       <hr class="footer-divider">
-<br>
       <div class="footer-links">
         <a href="#">Suporte e FAQ</a>
-        <span class="separator">|</span>
+        <span>|</span>
         <a href="#">Política de Privacidade</a>
-        <span class="separator">|</span>
+        <span>|</span>
         <a href="#">Termos de Uso</a>
       </div>
-
-      <p class="footer-copyright">
-        © 2024 Semear - Todos os direitos reservados
-      </p>
+      <p>© 2024 Semear - Todos os direitos reservados</p>
     </div>
   </footer>
 
-</body>
-</html>
+  <!-- ===== SCRIPT ===== -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const btnEntrar = document.querySelector(".btn-entrar");
+      if (btnEntrar) {
+        btnEntrar.addEventListener("click", (e) => {
+          e.preventDefault();
+          window.location.href = "login.html";
+        });
+      }
+
+      const select = document.getElementById("categoriaSelect");
+      const flores = document.querySelector(".cards-container.flores");
+      const frutas = document.querySelector(".cards-container.frutas");
+
+      select.addEventListener("change", () => {
+        if (select.value === "flores") {
+          flores.style.display = "flex";
+          frutas.style.display = "none";
+        } else {
+          flores.style.display = "none";
+          frutas.style.display = "flex";
+        }
+      });
+    });
+  </script>
